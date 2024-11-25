@@ -1,0 +1,3 @@
+module proyecto { // Cambia "proyecto" por el nombre de tu módulo
+    requires java.sql; // Declara que tu proyecto necesita el módulo java.sql
+}

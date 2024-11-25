@@ -1,0 +1,12 @@
+package com.empresa.modulo.pruebas;
+
+import com.empresa.modulo.modelo.Usuario;
+
+public class PruebaUsuario {
+    public static void main(String[] args) {
+        Usuario usuario = new Usuario(1, "Juan Pérez", "juan.perez@example.com");
+        System.out.println("ID: " + usuario.getId());
+        System.out.println("Nombre: " + usuario.getNombre());
+        System.out.println("Correo: " + usuario.getCorreo());
+    }
+}

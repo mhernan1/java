@@ -1,0 +1,5 @@
+package com.empresa.modulo.dao;
+
+public class conexiondb {
+
+}
